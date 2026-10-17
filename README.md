@@ -4,6 +4,8 @@ A browser GIF editor. Open a GIF, reorder and time the frames, draw on them, the
 
 I made this for a simple job on Mac screen-recording GIFs: cut and duplicate frames, add shapes and text, and export a file that stays small. This version does that for me. If you have the same kind of work, build on it instead of starting from scratch.
 
+[Demo](https://trkaplan.github.io/gif-editor-online/)
+
 ![Editor with a frame selected, a rectangle drawn on it, and the frame strip along the bottom](docs/screenshot.png)
 
 ## Run locally
