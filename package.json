@@ -1,0 +1,30 @@
+{
+  "name": "gif-editor-online",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "packageManager": "pnpm@10.22.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "fixtures": "vitest run tests/fixtures.test.ts"
+  },
+  "dependencies": {
+    "gifenc": "^1.0.3",
+    "gifuct-js": "^2.1.2",
+    "omggif": "1.0.10"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^5.7.3",
+    "vite": "^6.2.0",
+    "vitest": "^3.0.8"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}
